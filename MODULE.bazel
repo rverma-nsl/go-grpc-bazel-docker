@@ -1,0 +1,8 @@
+module(
+    name = "root",
+    version = "1.0",
+)
+
+bazel_dep(name = "gazelle", version = "0.28.0", repo_name = "bazel_gazelle")
+bazel_dep(name = "rules_proto", version = "4.0.0")
+
